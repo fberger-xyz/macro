@@ -17,17 +17,17 @@ export default function Page() {
                         {ressource.proxies.map((proxy) => (
                             <div
                                 key={`${ressource.index}-${proxy.index}`}
-                                className="group flex w-full items-center justify-between gap-2 rounded-sm px-1 hover:bg-very-light-hover"
+                                className="group flex w-full justify-between gap-2 rounded-sm px-1 hover:bg-very-light-hover md:items-center"
                             >
-                                <div className="flex items-baseline gap-2 py-1 text-sm">
-                                    <p className="text-xs text-inactive">{proxy.index + 1}.</p>
+                                <div className="flex flex-wrap items-baseline gap-2 py-1 text-xs md:text-sm">
+                                    <p className="text-inactive">{proxy.index + 1}.</p>
                                     {proxy.author && <p>{proxy.author}</p>}
                                     {proxy.author && proxy.name && <p className="text-inactive">{'>'}</p>}
                                     {proxy.name && <p className="text-secondary">{proxy.name}</p>}
                                     {proxy.toMonitor.length > 0 && <p className="text-inactive">{'>'}</p>}
-                                    {proxy.toMonitor.length > 0 && <p className="text-xs text-default">{proxy.toMonitor}</p>}
+                                    {proxy.toMonitor.length > 0 && <p className="text-default">{proxy.toMonitor}</p>}
                                 </div>
-                                <div className="flex grow border-b border-dashed border-light-hover text-sm group-hover:border-secondary" />
+                                <div className="hidden grow border-b border-dashed border-light-hover text-sm group-hover:border-secondary md:flex" />
                                 <div className="flex gap-2">
                                     {proxy.socials.map((social) => (
                                         <LinkWrapper
