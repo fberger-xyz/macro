@@ -101,8 +101,8 @@ export const RESSOURCES: {
             },
             {
                 index: 1,
-                author: 'Tether Supply',
-                name: 'Announcements',
+                author: 'glassnode',
+                name: 'Tether Supply',
                 socials: [
                     {
                         index: 0,
@@ -253,7 +253,7 @@ export const RESSOURCES: {
             {
                 index: 0,
                 author: 'Polymarket',
-                name: 'Crypto polls',
+                name: 'Crypto related polls',
                 socials: [
                     {
                         index: 0,
