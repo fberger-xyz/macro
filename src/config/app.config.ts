@@ -147,6 +147,19 @@ export const RESSOURCES: {
             },
             {
                 index: 1,
+                author: 'Hyperliquid',
+                name: 'Funding Comparison',
+                socials: [
+                    {
+                        index: 0,
+                        icon: IconIds.WEBSITE,
+                        href: 'https://app.hyperliquid.xyz/fundingComparison',
+                    },
+                ],
+                toMonitor: ['Onchain leverage'],
+            },
+            {
+                index: 2,
                 author: 'Aave',
                 name: 'Lending Markets APY',
                 socials: [
@@ -159,7 +172,7 @@ export const RESSOURCES: {
                 toMonitor: ['Onchain leverage'],
             },
             {
-                index: 2,
+                index: 3,
                 author: 'DeFi France',
                 name: 'Community',
                 socials: [
@@ -172,7 +185,7 @@ export const RESSOURCES: {
                 toMonitor: [],
             },
             {
-                index: 3,
+                index: 4,
                 author: 'DeFiLlama',
                 name: 'Token Unlocks',
                 socials: [
