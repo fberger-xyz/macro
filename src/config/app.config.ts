@@ -51,12 +51,12 @@ export const RESSOURCES: {
                         href: 'https://www.tradingview.com/economic-calendar/',
                     },
                 ],
-                toMonitor: ['High importance USA events'],
+                toMonitor: ['USA events'],
             },
             {
                 index: 1,
                 author: 'Fintool',
-                name: 'AI Equity Research',
+                name: 'AI Research',
                 socials: [
                     {
                         index: 0,
@@ -79,6 +79,19 @@ export const RESSOURCES: {
                 ],
                 toMonitor: ['Trends'],
             },
+            {
+                index: 3,
+                author: 'Velo',
+                name: 'News',
+                socials: [
+                    {
+                        index: 0,
+                        icon: IconIds.WEBSITE,
+                        href: 'https://velo.xyz/news',
+                    },
+                ],
+                toMonitor: [],
+            },
         ],
     },
     {
@@ -89,7 +102,7 @@ export const RESSOURCES: {
             {
                 index: 0,
                 author: 'Coinalyze',
-                name: 'Futures: OI + Funding + Liquidations',
+                name: 'OI + Funding + Liquidations',
                 socials: [
                     {
                         index: 0,
@@ -123,7 +136,7 @@ export const RESSOURCES: {
                         href: 'https://www.binance.com/en/support/announcement/new-cryptocurrency-listing?c=48&navId=48',
                     },
                 ],
-                toMonitor: ['New listings'],
+                toMonitor: ['Spot/perps listings'],
             },
         ],
     },
@@ -134,7 +147,7 @@ export const RESSOURCES: {
         proxies: [
             {
                 index: 0,
-                author: 'Ethereum Roadmap',
+                author: 'Ethereum',
                 name: 'Future upgrades',
                 socials: [
                     {
@@ -143,12 +156,12 @@ export const RESSOURCES: {
                         href: 'https://ethroadmap.com/',
                     },
                 ],
-                toMonitor: ['Impacts on UX and issuance'],
+                toMonitor: ['UX and issuance'],
             },
             {
                 index: 1,
                 author: 'Hyperliquid',
-                name: 'Funding Comparison',
+                name: 'Funding',
                 socials: [
                     {
                         index: 0,
@@ -241,7 +254,7 @@ export const RESSOURCES: {
                         href: 'https://x.com/L4UR3N7',
                     },
                 ],
-                toMonitor: ['Views on macro (called $/¥ carry trade unwind)'],
+                toMonitor: ['Views on macro'], //  (called $/¥ carry trade unwind)
             },
             {
                 index: 3,
