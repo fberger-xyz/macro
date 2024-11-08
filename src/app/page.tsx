@@ -21,12 +21,12 @@ export default function Page() {
                                 return (
                                     <div
                                         key={`${name}-${ressourceIndex}-${proxyName}-${proxyIndex}`}
-                                        className="group flex w-full justify-between gap-2 rounded-sm bg-very-light-hover px-1 md:items-center"
+                                        className="group flex w-full justify-between gap-2 rounded-sm bg-very-light-hover px-1 hover:bg-light-hover md:items-center md:bg-background"
                                     >
                                         <LinkWrapper
                                             target="_blank"
                                             href={mainHref}
-                                            className="flex grow flex-wrap items-baseline gap-2 py-1 text-xs md:text-sm"
+                                            className="flex grow flex-wrap items-center gap-2 py-1 text-xs md:text-sm"
                                         >
                                             <p className="text-inactive">{proxyIndex + 1}.</p>
                                             {author && <p>{author}</p>}
@@ -38,7 +38,7 @@ export default function Page() {
                                                     <p className="text-default">{toMonitor}</p>
                                                 </>
                                             )}
-                                            <div className="hidden grow border-b border-dashed border-light-hover text-sm group-hover:border-secondary md:flex" />
+                                            <div className="grow border-b border-dashed border-inactive text-sm group-hover:border-primary md:flex" />
                                         </LinkWrapper>
                                         <div className="flex gap-2">
                                             {socials.map((social, socialIndex) => (
@@ -46,7 +46,7 @@ export default function Page() {
                                                     key={`${social.href}-${socialIndex}`}
                                                     target="_blank"
                                                     href={social.href}
-                                                    className="cursor-alias rounded-md p-1 hover:bg-light-hover hover:text-primary"
+                                                    className="cursor-alias rounded-md p-1 hover:bg-light-hover group-hover:text-primary"
                                                 >
                                                     <IconWrapper icon={social.icon} className="size-4" />
                                                 </LinkWrapper>
