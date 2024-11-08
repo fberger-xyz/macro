@@ -82,7 +82,7 @@ export const RESSOURCES: {
         ],
     },
     {
-        index: 0,
+        index: 1,
         name: 'CeFi',
         toMonitor: [],
         proxies: [
@@ -128,7 +128,7 @@ export const RESSOURCES: {
         ],
     },
     {
-        index: 1,
+        index: 2,
         toMonitor: [],
         name: 'DeFi',
         proxies: [
@@ -187,7 +187,7 @@ export const RESSOURCES: {
         ],
     },
     {
-        index: 2,
+        index: 3,
         name: 'KOLs / Analysts',
         toMonitor: [],
         proxies: [
@@ -246,7 +246,7 @@ export const RESSOURCES: {
         ],
     },
     {
-        index: 3,
+        index: 4,
         name: 'Sentiments',
         toMonitor: ['Monitor key companies earnings like those of $NVDA'],
         proxies: [
