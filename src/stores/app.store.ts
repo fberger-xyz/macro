@@ -22,7 +22,7 @@ export const useAppStore = create<{
     initialized: false,
     links: [
         {
-            name: 'Macro',
+            name: 'Alpha',
             path: AppPagePaths.HOME,
             enabled: true,
             sublinks: [],

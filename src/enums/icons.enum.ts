@@ -33,6 +33,7 @@ export enum IconIds {
     DISCORD = 'mdi:discord',
     GITHUB = 'mdi:github',
     LINKEDIN = 'mdi:linkedin',
+    MEDIUM = 'mdi:medium',
 
     // evm
     TRANSACTION = 'carbon:text-align-center',
